@@ -9,6 +9,9 @@ library(ggplot2)
 #rnk.file
 #gmt.file
 
+#set seed
+set.seed(123)
+
 ## read rank file and pathway files
 rnk.file <- "./naive.vs.th1.rnk"
 gmt.file <- "./mouse.reactome.gmt"
